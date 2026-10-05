@@ -1,4 +1,9 @@
-<h1 align="center">FLAIR</h1>
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/FLAIRUK/.github/main/brand/flair-dark.svg">
+    <img src="https://raw.githubusercontent.com/FLAIRUK/.github/main/brand/flair-light.svg" alt="FLAIR" width="320">
+  </picture>
+</p>
 
 <p align="center">Open-source Laravel packages, made in Oxford.</p>
 

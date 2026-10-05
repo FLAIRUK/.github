@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-label="FLAIR">
+  <title>FLAIR</title>
+  <rect width="512" height="512" fill="#FFFFFF"/>
+  <g transform="translate(256 256) scale(1.75) translate(-113.5 -47.25)">
+    <g fill="none" stroke="#1F2328" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M11.25 83.25V47L50 38.75L10.5 29.5L47.5 11.25"/>
+      <path d="M53.75 11.25V83.25H89.5"/>
+      <path d="M55 47L85 80.5"/>
+      <path d="M167 83.25L130.5 11.25L95.75 83.25L148.75 48.75"/>
+      <path d="M173.75 11.25V83.25"/>
+      <path d="M180.5 83.25V48H199"/>
+      <path d="M181 30.5L216 83.25"/>
+      <circle cx="198" cy="30.25" r="17.25"/>
+    </g>
+  </g>
+</svg>
