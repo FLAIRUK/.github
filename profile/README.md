@@ -116,7 +116,7 @@ Countries, cities, airports, airlines and aircraft, looked up in memory with no 
 
 ## 🧳 Travel and Transport
 
-Clients for booking stays, trains and rides, and for live flight data, each set up from `.env` and testable with `Http::fake()`.
+Clients for booking stays, trains and rides, for live flight data, and for the Starlink terminals that keep vehicles and vessels online, each set up from `.env` and testable with `Http::fake()`.
 
 <table>
   <tr>
@@ -170,6 +170,21 @@ Clients for booking stays, trains and rides, and for live flight data, each set 
       <br>
       <code>composer require flairuk/laravel-uber</code>
     </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/FLAIRUK/laravel-starlink">
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/FLAIRUK/laravel-starlink/main/art/logo-dark.svg">
+          <img src="https://raw.githubusercontent.com/FLAIRUK/laravel-starlink/main/art/logo-light.svg" alt="flairuk/laravel-starlink" width="260">
+        </picture>
+      </a>
+      <br>
+      The Starlink Telemetry API: terminal and router health decoded from the stream, alerts raised and cleared as Laravel events, and the latest values per device.
+      <br>
+      <code>composer require flairuk/laravel-starlink</code>
+    </td>
+    <td width="50%"></td>
   </tr>
 </table>
 
