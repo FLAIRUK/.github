@@ -21,6 +21,7 @@
 <p align="center">
   🌍&nbsp;<a href="#-world">World</a> ·
   🧳&nbsp;<a href="#-travel-and-transport">Travel and Transport</a> ·
+  📡&nbsp;<a href="#-connection">Connection</a> ·
   🧾&nbsp;<a href="#-payments">Payments</a> ·
   🔒&nbsp;<a href="#-security">Security</a>
 </p>
@@ -116,7 +117,7 @@ Countries, cities, airports, airlines and aircraft, looked up in memory with no 
 
 ## 🧳 Travel and Transport
 
-Clients for booking stays, trains and rides, for live flight data, and for the Starlink terminals that keep vehicles and vessels online, each set up from `.env` and testable with `Http::fake()`.
+Clients for booking stays, trains and rides, and for live flight data, each set up from `.env` and testable with `Http::fake()`.
 
 <table>
   <tr>
@@ -171,6 +172,15 @@ Clients for booking stays, trains and rides, for live flight data, and for the S
       <code>composer require flairuk/laravel-uber</code>
     </td>
   </tr>
+</table>
+
+<br><br>
+
+## 📡 Connection
+
+Clients for the satellite and network services that keep vehicles, vessels and remote sites online, each set up from `.env` and testable with `Http::fake()`.
+
+<table>
   <tr>
     <td width="50%" valign="top">
       <a href="https://github.com/FLAIRUK/laravel-starlink">
