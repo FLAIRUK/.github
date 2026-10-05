@@ -16,12 +16,11 @@
   <br>&nbsp;
 </h2>
 
-**FLAIR** publishes reference data for travel and commerce apps, and API clients for the tills that shops run on. Every package targets Laravel 12 and 13, is tested on PHP 8.2 to 8.5, and is MIT licensed.
+**FLAIR** publishes reference data for travel and commerce apps, and clients for the tills and payment providers that shops run on. Every package targets Laravel 12 and 13, is tested on PHP 8.2 to 8.5, and is MIT licensed.
 
 <p align="center">
   🌍&nbsp;<a href="#-world-data">World data</a> ·
-  🧾&nbsp;<a href="#-point-of-sale">Point of sale</a> ·
-  🚀&nbsp;<a href="#-quick-start">Quick start</a> ·
+  🧾&nbsp;<a href="#-point-of-sale-and-payments">Point of sale and payments</a> ·
   🔒&nbsp;<a href="#-security">Security</a>
 </p>
 
@@ -114,7 +113,9 @@ Countries, cities, airports, airlines and aircraft, looked up in memory with no 
 
 <br><br>
 
-## 🧾 Point of sale
+## 🧾 Point of sale and payments
+
+Clients for the till and payment systems shops run on, each set up from `.env`, testable with `Http::fake()`, and with install and status commands to check the connection.
 
 <table>
   <tr>
@@ -130,28 +131,35 @@ Countries, cities, airports, airlines and aircraft, looked up in memory with no 
       <br>
       <code>composer require flairuk/good-till-system</code>
     </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/FLAIRUK/laravel-square">
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/FLAIRUK/laravel-square/master/art/logo-dark.svg">
+          <img src="https://raw.githubusercontent.com/FLAIRUK/laravel-square/master/art/logo-light.svg" alt="flairuk/laravel-square" width="260">
+        </picture>
+      </a>
+      <br>
+      Square payments through the official SDK, with signature-checked webhooks as Laravel events, OAuth, idempotency keys and a card form.
+      <br>
+      <code>composer require flairuk/laravel-square</code>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/FLAIRUK/laravel-sumup">
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/FLAIRUK/laravel-sumup/master/art/logo-dark.svg">
+          <img src="https://raw.githubusercontent.com/FLAIRUK/laravel-sumup/master/art/logo-light.svg" alt="flairuk/laravel-sumup" width="260">
+        </picture>
+      </a>
+      <br>
+      SumUp online checkouts, card readers, refunds and OAuth through the official SDK, with each webhook confirmed against the API.
+      <br>
+      <code>composer require flairuk/laravel-sumup</code>
+    </td>
     <td width="50%"></td>
   </tr>
 </table>
-
-<br><br>
-
-## 🚀 Quick start
-
-```bash
-composer require flairuk/laravel-world
-```
-
-```php
-use FLAIRUK\World\Facades\World;
-
-World::country('GBR')->name;                 // "United Kingdom"
-World::airportsIn('GB')->pluck('code');       // LHR, LGW, MAN, …
-World::countryOf(World::airlines()->find('BA'))->name;   // "United Kingdom"
-World::code('BA');                           // Bosnia and Herzegovina, and British Airways
-```
-
-Each package's README covers the rest.
 
 <br><br>
 
