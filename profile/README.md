@@ -27,7 +27,7 @@
 
 <br><br>
 
-## 🌍 World data
+## 🌍 World
 
 Countries, cities, airports, airlines and aircraft, looked up in memory with no database needed. Each dataset comes with a validation rule, and you can seed it into a table when other tables need to reference it.
 
@@ -114,7 +114,7 @@ Countries, cities, airports, airlines and aircraft, looked up in memory with no 
 
 <br><br>
 
-## 🧳 Travel and transport
+## 🧳 Travel and Transport
 
 Clients for booking stays, trains and rides, and for live flight data, each set up from `.env` and testable with `Http::fake()`.
 
@@ -164,7 +164,7 @@ Clients for booking stays, trains and rides, and for live flight data, each set 
 
 <br><br>
 
-## 🧾 Point of sale and payments
+## 🧾 Payments
 
 Clients for the till and payment systems shops run on, each set up from `.env`, testable with `Http::fake()`, and with install and status commands to check the connection.
 
