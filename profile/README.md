@@ -30,7 +30,7 @@
 
 ## 🌍 World
 
-Countries, cities, airports, airlines and aircraft, looked up in memory with no database needed. Each dataset comes with a validation rule, and you can seed it into a table when other tables need to reference it.
+Up-to-date lists of the world's countries, cities, airports, airlines and aircraft, ready to use in your app. Let customers pick their country, find an airport, or see which airline flies a route, with every entry checked and kept current.
 
 <table>
   <tr>
@@ -117,7 +117,7 @@ Countries, cities, airports, airlines and aircraft, looked up in memory with no 
 
 ## 🧳 Travel and Transport
 
-Clients for booking stays, trains and rides, and for live flight data, each set up from `.env` and testable with `Http::fake()`.
+Book hotels, train journeys and rides, and follow flights as they happen, all from inside your own app, so customers can plan a whole trip in one place.
 
 <table>
   <tr>
@@ -178,7 +178,7 @@ Clients for booking stays, trains and rides, and for live flight data, each set 
 
 ## 📡 Connection
 
-Clients for the satellite and network services that keep vehicles, vessels and remote sites online, each set up from `.env` and testable with `Http::fake()`.
+Keep watch over the satellite internet that keeps vehicles, ships and remote sites online. See how every connection is performing, and find out the moment something goes wrong.
 
 <table>
   <tr>
@@ -202,7 +202,7 @@ Clients for the satellite and network services that keep vehicles, vessels and r
 
 ## 🧾 Payments
 
-Clients for the till and payment systems shops run on, each set up from `.env`, testable with `Http::fake()`, and with install and status commands to check the connection.
+Take payments online and in store with the tills and card readers shops already use, and keep sales, products and customers in step with your app.
 
 <table>
   <tr>
