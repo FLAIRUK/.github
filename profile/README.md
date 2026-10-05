@@ -145,6 +145,21 @@ Clients for booking stays, trains and rides, and for live flight data, each set 
       <code>composer require flairuk/laravel-all-aboard</code>
     </td>
   </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/FLAIRUK/laravel-aviationstack">
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/FLAIRUK/laravel-aviationstack/main/art/logo-dark.svg">
+          <img src="https://raw.githubusercontent.com/FLAIRUK/laravel-aviationstack/main/art/logo-light.svg" alt="flairuk/laravel-aviationstack" width="260">
+        </picture>
+      </a>
+      <br>
+      The aviationstack API: real-time and historical flights, airport timetables, future schedules and routes, with typed errors and lazy paging.
+      <br>
+      <code>composer require flairuk/laravel-aviationstack</code>
+    </td>
+    <td width="50%"></td>
+  </tr>
 </table>
 
 <br><br>
