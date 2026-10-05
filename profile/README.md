@@ -10,7 +10,7 @@
 <h2 align="center">
   <a href="https://www.php.net/" target="_blank"><img src="https://img.shields.io/badge/PHP-8.2%2B-777BB4?style=flat&logo=php&logoColor=white" alt="PHP 8.2+"></a>&nbsp;
   <a href="https://laravel.com/docs/" target="_blank"><img src="https://img.shields.io/badge/Laravel-12%20%7C%2013-FF2D20?style=flat&logo=laravel&logoColor=white" alt="Laravel 12 or 13"></a>&nbsp;
-  <a href="https://packagist.org/packages/flairuk/" target="_blank"><img src="https://img.shields.io/badge/Packagist-flairuk-F28D1A?style=flat&logo=packagist&logoColor=white" alt="flairuk on Packagist"></a>&nbsp;
+  <a href="https://packagist.org/packages/flairuk/" target="_blank"><img src="https://img.shields.io/badge/Packagist-FLAIRUK-F28D1A?style=flat&logo=packagist&logoColor=white" alt="flairuk on Packagist"></a>&nbsp;
   <a href="https://github.com/orgs/FLAIRUK/repositories" target="_blank"><img src="https://img.shields.io/badge/License-MIT-3DA639?style=flat" alt="MIT licence"></a>&nbsp;
   <a href="https://github.com/FLAIRUK" target="_blank"><img src="https://img.shields.io/badge/Made%20in-Oxford-002147?style=flat" alt="Made in Oxford"></a>&nbsp;
   <br>&nbsp;
