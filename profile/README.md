@@ -16,10 +16,11 @@
   <br>&nbsp;
 </h2>
 
-**FLAIR** publishes reference data for travel and commerce apps, and clients for the tills and payment providers that shops run on. Every package targets Laravel 12 and 13, is tested on PHP 8.2 to 8.5, and is MIT licensed.
+**FLAIR** publishes reference data for travel and commerce apps, a client for selling Booking.com stays, and clients for the tills and payment providers that shops run on. Every package targets Laravel 12 and 13, is tested on PHP 8.2 to 8.5, and is MIT licensed.
 
 <p align="center">
   🌍&nbsp;<a href="#-world-data">World data</a> ·
+  🛏️&nbsp;<a href="#%EF%B8%8F-travel-booking">Travel booking</a> ·
   🧾&nbsp;<a href="#-point-of-sale-and-payments">Point of sale and payments</a> ·
   🔒&nbsp;<a href="#-security">Security</a>
 </p>
@@ -35,8 +36,8 @@ Countries, cities, airports, airlines and aircraft, looked up in memory with no 
     <td width="50%" valign="top">
       <a href="https://github.com/FLAIRUK/laravel-world">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/FLAIRUK/laravel-world/master/art/logo-dark.svg">
-          <img src="https://raw.githubusercontent.com/FLAIRUK/laravel-world/master/art/logo-light.svg" alt="flairuk/laravel-world" width="260">
+          <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/FLAIRUK/laravel-world/main/art/logo-dark.svg">
+          <img src="https://raw.githubusercontent.com/FLAIRUK/laravel-world/main/art/logo-light.svg" alt="flairuk/laravel-world" width="260">
         </picture>
       </a>
       <br>
@@ -47,8 +48,8 @@ Countries, cities, airports, airlines and aircraft, looked up in memory with no 
     <td width="50%" valign="top">
       <a href="https://github.com/FLAIRUK/laravel-countries">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/FLAIRUK/laravel-countries/master/art/logo-dark.svg">
-          <img src="https://raw.githubusercontent.com/FLAIRUK/laravel-countries/master/art/logo-light.svg" alt="flairuk/laravel-countries" width="260">
+          <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/FLAIRUK/laravel-countries/main/art/logo-dark.svg">
+          <img src="https://raw.githubusercontent.com/FLAIRUK/laravel-countries/main/art/logo-light.svg" alt="flairuk/laravel-countries" width="260">
         </picture>
       </a>
       <br>
@@ -61,8 +62,8 @@ Countries, cities, airports, airlines and aircraft, looked up in memory with no 
     <td width="50%" valign="top">
       <a href="https://github.com/FLAIRUK/laravel-cities">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/FLAIRUK/laravel-cities/master/art/logo-dark.svg">
-          <img src="https://raw.githubusercontent.com/FLAIRUK/laravel-cities/master/art/logo-light.svg" alt="flairuk/laravel-cities" width="260">
+          <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/FLAIRUK/laravel-cities/main/art/logo-dark.svg">
+          <img src="https://raw.githubusercontent.com/FLAIRUK/laravel-cities/main/art/logo-light.svg" alt="flairuk/laravel-cities" width="260">
         </picture>
       </a>
       <br>
@@ -73,8 +74,8 @@ Countries, cities, airports, airlines and aircraft, looked up in memory with no 
     <td width="50%" valign="top">
       <a href="https://github.com/FLAIRUK/laravel-airports">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/FLAIRUK/laravel-airports/master/art/logo-dark.svg">
-          <img src="https://raw.githubusercontent.com/FLAIRUK/laravel-airports/master/art/logo-light.svg" alt="flairuk/laravel-airports" width="260">
+          <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/FLAIRUK/laravel-airports/main/art/logo-dark.svg">
+          <img src="https://raw.githubusercontent.com/FLAIRUK/laravel-airports/main/art/logo-light.svg" alt="flairuk/laravel-airports" width="260">
         </picture>
       </a>
       <br>
@@ -87,8 +88,8 @@ Countries, cities, airports, airlines and aircraft, looked up in memory with no 
     <td width="50%" valign="top">
       <a href="https://github.com/FLAIRUK/laravel-airlines">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/FLAIRUK/laravel-airlines/master/art/logo-dark.svg">
-          <img src="https://raw.githubusercontent.com/FLAIRUK/laravel-airlines/master/art/logo-light.svg" alt="flairuk/laravel-airlines" width="260">
+          <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/FLAIRUK/laravel-airlines/main/art/logo-dark.svg">
+          <img src="https://raw.githubusercontent.com/FLAIRUK/laravel-airlines/main/art/logo-light.svg" alt="flairuk/laravel-airlines" width="260">
         </picture>
       </a>
       <br>
@@ -99,8 +100,8 @@ Countries, cities, airports, airlines and aircraft, looked up in memory with no 
     <td width="50%" valign="top">
       <a href="https://github.com/FLAIRUK/laravel-aircrafts">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/FLAIRUK/laravel-aircrafts/master/art/logo-dark.svg">
-          <img src="https://raw.githubusercontent.com/FLAIRUK/laravel-aircrafts/master/art/logo-light.svg" alt="flairuk/laravel-aircrafts" width="260">
+          <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/FLAIRUK/laravel-aircrafts/main/art/logo-dark.svg">
+          <img src="https://raw.githubusercontent.com/FLAIRUK/laravel-aircrafts/main/art/logo-light.svg" alt="flairuk/laravel-aircrafts" width="260">
         </picture>
       </a>
       <br>
@@ -108,6 +109,30 @@ Countries, cities, airports, airlines and aircraft, looked up in memory with no 
       <br>
       <code>composer require flairuk/laravel-aircrafts</code>
     </td>
+  </tr>
+</table>
+
+<br><br>
+
+## 🛏️ Travel booking
+
+For affiliates and travel sites that sell Booking.com stays and car rentals, set up from `.env` and testable with `Http::fake()`.
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/FLAIRUK/laravel-booking-com">
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/FLAIRUK/laravel-booking-com/main/art/logo-dark.svg">
+          <img src="https://raw.githubusercontent.com/FLAIRUK/laravel-booking-com/main/art/logo-light.svg" alt="flairuk/laravel-booking-com" width="260">
+        </picture>
+      </a>
+      <br>
+      A client for the Booking.com Demand API: accommodation search, availability and content, orders from preview to cancellation, and car rentals, with lazy pagination.
+      <br>
+      <code>composer require flairuk/laravel-booking-com</code>
+    </td>
+    <td width="50%"></td>
   </tr>
 </table>
 
@@ -122,8 +147,8 @@ Clients for the till and payment systems shops run on, each set up from `.env`, 
     <td width="50%" valign="top">
       <a href="https://github.com/FLAIRUK/good-till-system">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/FLAIRUK/good-till-system/master/art/logo-dark.svg">
-          <img src="https://raw.githubusercontent.com/FLAIRUK/good-till-system/master/art/logo-light.svg" alt="flairuk/good-till-system" width="260">
+          <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/FLAIRUK/good-till-system/main/art/logo-dark.svg">
+          <img src="https://raw.githubusercontent.com/FLAIRUK/good-till-system/main/art/logo-light.svg" alt="flairuk/good-till-system" width="260">
         </picture>
       </a>
       <br>
@@ -134,8 +159,8 @@ Clients for the till and payment systems shops run on, each set up from `.env`, 
     <td width="50%" valign="top">
       <a href="https://github.com/FLAIRUK/laravel-square">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/FLAIRUK/laravel-square/master/art/logo-dark.svg">
-          <img src="https://raw.githubusercontent.com/FLAIRUK/laravel-square/master/art/logo-light.svg" alt="flairuk/laravel-square" width="260">
+          <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/FLAIRUK/laravel-square/main/art/logo-dark.svg">
+          <img src="https://raw.githubusercontent.com/FLAIRUK/laravel-square/main/art/logo-light.svg" alt="flairuk/laravel-square" width="260">
         </picture>
       </a>
       <br>
@@ -148,8 +173,8 @@ Clients for the till and payment systems shops run on, each set up from `.env`, 
     <td width="50%" valign="top">
       <a href="https://github.com/FLAIRUK/laravel-sumup">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/FLAIRUK/laravel-sumup/master/art/logo-dark.svg">
-          <img src="https://raw.githubusercontent.com/FLAIRUK/laravel-sumup/master/art/logo-light.svg" alt="flairuk/laravel-sumup" width="260">
+          <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/FLAIRUK/laravel-sumup/main/art/logo-dark.svg">
+          <img src="https://raw.githubusercontent.com/FLAIRUK/laravel-sumup/main/art/logo-light.svg" alt="flairuk/laravel-sumup" width="260">
         </picture>
       </a>
       <br>
