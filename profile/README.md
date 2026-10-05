@@ -166,3 +166,24 @@ Clients for the till and payment systems shops run on, each set up from `.env`, 
 ## 🔒 Security
 
 Please report a vulnerability privately through the affected repository's **Security** tab ("Report a vulnerability") rather than in a public issue. Each repository's `SECURITY.md` has the details.
+
+<br><br>
+
+<p>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/FLAIRUK/.github/main/brand/divider-dark.svg">
+    <img src="https://raw.githubusercontent.com/FLAIRUK/.github/main/brand/divider-light.svg" alt="" width="100%" height="1">
+  </picture>
+</p>
+
+<div align="right">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/FLAIRUK/.github/main/brand/flair-dark.svg">
+    <img src="https://raw.githubusercontent.com/FLAIRUK/.github/main/brand/flair-light.svg" alt="FLAIR" width="96" align="left">
+  </picture>
+  <sub><a href="https://github.com/orgs/FLAIRUK/repositories" target="_blank">Repositories</a> · <a href="https://packagist.org/packages/flairuk/" target="_blank">Packagist</a> · <a href="https://github.com/FLAIRUK/.github/tree/main/brand" target="_blank">Brand</a></sub>
+  <br>
+  <sub>Open-source Laravel packages, made in Oxford</sub>
+  <br clear="left">
+  <div align="left"><sub>© 2026 FLAIR. Every package is MIT licensed.</sub></div>
+</div>
