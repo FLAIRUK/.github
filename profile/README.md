@@ -19,9 +19,9 @@
 **FLAIR** publishes reference data for travel and commerce apps, clients for travel and transport APIs, and clients for the tills and payment providers that shops run on. Every package targets Laravel 12 and 13, is tested on PHP 8.2 to 8.5, and is MIT licensed.
 
 <p align="center">
-  🌍&nbsp;<a href="#-world-data">World data</a> ·
-  🧳&nbsp;<a href="#-travel-and-transport">Travel and transport</a> ·
-  🧾&nbsp;<a href="#-point-of-sale-and-payments">Point of sale and payments</a> ·
+  🌍&nbsp;<a href="#-world">World</a> ·
+  🧳&nbsp;<a href="#-travel-and-transport">Travel and Transport</a> ·
+  🧾&nbsp;<a href="#-payments">Payments</a> ·
   🔒&nbsp;<a href="#-security">Security</a>
 </p>
 
