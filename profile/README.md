@@ -67,7 +67,7 @@ Countries, cities, airports, airlines and aircraft, looked up in memory with no 
         </picture>
       </a>
       <br>
-      More than 9,000 IATA city codes. <code>LON</code> covers Heathrow, Gatwick, Stansted and the rest.
+      More than 9,000 IATA city codes, such as <code>LON</code>, <code>NYC</code> and <code>PAR</code>.
       <br>
       <code>composer require flairuk/laravel-cities</code>
     </td>
