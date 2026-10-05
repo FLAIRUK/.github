@@ -158,7 +158,18 @@ Clients for booking stays, trains and rides, and for live flight data, each set 
       <br>
       <code>composer require flairuk/laravel-aviationstack</code>
     </td>
-    <td width="50%"></td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/FLAIRUK/laravel-uber">
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/FLAIRUK/laravel-uber/main/art/logo-dark.svg">
+          <img src="https://raw.githubusercontent.com/FLAIRUK/laravel-uber/main/art/logo-light.svg" alt="flairuk/laravel-uber" width="260">
+        </picture>
+      </a>
+      <br>
+      The Uber APIs behind one facade: rides, guest and health rides, Uber Direct deliveries, the Uber Eats Marketplace and Uber for Business, with OAuth, cached app tokens and verified webhooks.
+      <br>
+      <code>composer require flairuk/laravel-uber</code>
+    </td>
   </tr>
 </table>
 
