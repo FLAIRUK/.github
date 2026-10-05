@@ -16,11 +16,11 @@
   <br>&nbsp;
 </h2>
 
-**FLAIR** publishes reference data for travel and commerce apps, a client for selling Booking.com stays, and clients for the tills and payment providers that shops run on. Every package targets Laravel 12 and 13, is tested on PHP 8.2 to 8.5, and is MIT licensed.
+**FLAIR** publishes reference data for travel and commerce apps, clients for travel and transport APIs, and clients for the tills and payment providers that shops run on. Every package targets Laravel 12 and 13, is tested on PHP 8.2 to 8.5, and is MIT licensed.
 
 <p align="center">
   🌍&nbsp;<a href="#-world-data">World data</a> ·
-  🛏️&nbsp;<a href="#%EF%B8%8F-travel-booking">Travel booking</a> ·
+  🧳&nbsp;<a href="#-travel-and-transport">Travel and transport</a> ·
   🧾&nbsp;<a href="#-point-of-sale-and-payments">Point of sale and payments</a> ·
   🔒&nbsp;<a href="#-security">Security</a>
 </p>
@@ -114,9 +114,9 @@ Countries, cities, airports, airlines and aircraft, looked up in memory with no 
 
 <br><br>
 
-## 🛏️ Travel booking
+## 🧳 Travel and transport
 
-For affiliates and travel sites that sell Booking.com stays and car rentals, set up from `.env` and testable with `Http::fake()`.
+Clients for booking stays, trains and rides, and for live flight data, each set up from `.env` and testable with `Http::fake()`.
 
 <table>
   <tr>
@@ -132,7 +132,18 @@ For affiliates and travel sites that sell Booking.com stays and car rentals, set
       <br>
       <code>composer require flairuk/laravel-booking-com</code>
     </td>
-    <td width="50%"></td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/FLAIRUK/laravel-all-aboard">
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/FLAIRUK/laravel-all-aboard/main/art/logo-dark.svg">
+          <img src="https://raw.githubusercontent.com/FLAIRUK/laravel-all-aboard/main/art/logo-light.svg" alt="flairuk/laravel-all-aboard" width="260">
+        </picture>
+      </a>
+      <br>
+      A client for the All Aboard rail API: European train journeys, offers, bookings, orders, rail passes and refunds, with no GraphQL to write.
+      <br>
+      <code>composer require flairuk/laravel-all-aboard</code>
+    </td>
   </tr>
 </table>
 
